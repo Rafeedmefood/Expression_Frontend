@@ -3,18 +3,32 @@ body {
     margin: 0;
 }
 
+/* ========= NAVBAR STYLING ========= */
+#main-navbar {
+    border: black 1px solid;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
 
 
 /* ========= HOME PAGE STYLING ========= */
 #home-background {
     margin: 0;
     padding: 40px;
+    background: url("./images/background.jpeg");
+    height: 100%;
+    position: absolute;
 }
 
 #biography {
     height: fit-content;
     width: 80%;
     margin: 0 auto;
+
 }
 
 #bio-title {

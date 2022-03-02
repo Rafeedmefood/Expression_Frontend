@@ -6,7 +6,7 @@ function App() {
   return (
     <Router>
         <div>
-        <nav>
+        <nav id="main-navbar">
             <Link to="/">Home</Link>
         </nav>
         <Routes>
