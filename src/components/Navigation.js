@@ -1,33 +1,25 @@
-import React, {useState} from "react";
+import React from "react";
 import {Link} from "react-router-dom";
-import {AiOutlineMenu} from "react-icons/ai";
 import {BiHomeHeart} from "react-icons/bi";
+import {GiWrappedHeart} from "react-icons/gi";
+import {AiOutlineContacts} from "react-icons/ai";
 
 
 function Navigation() {
-    const [isToggled, setIsToggle] = useState(false)
-    const handleSubmit = () => {
-      setIsToggle((prev) => !prev)
-    }
-
-
     return (
         <div className="fixed w-full z-1 mx-0 my-0">
-                {isToggled ?
-                    (<button className={"float-right m-1"} onClick={() => handleSubmit}><AiOutlineMenu size={40}/></button>) :
-                    (
-                        <div className="">
-                            <Link  className="float-right" to="/"> <Icons icon={ <BiHomeHeart size={20} /> } text={"Home"} /> </Link>
-                        </div>
-                    )
-                }
+            <div className="">
+                <Link className="float-right  icons text-orange-700 hover:bg-pink-700 hover:text-cyan-300" to="/"> <Icons icon={<BiHomeHeart size={25}/>} text={"Home"}/> </Link>
+                <Link className="float-right  icons text-rose-600 hover:bg-pink-700 hover:text-cyan-300" to="/Expression"> <Icons icon={<GiWrappedHeart size={20}/>} text={"Expression"}/> </Link>
+                <Link className="float-right  icons text-yellow-500 hover:bg-pink-700 hover:text-cyan-300" to="/Contacts"> <Icons icon={<AiOutlineContacts size={26}/>} text={"Contacts"}/> </Link>
+            </div>
         </div>
     )
 }
 
 function Icons({icon, text}) {
     return (
-        <div className="icons group">
+        <div className="flex justify-center group">
             {icon}
             <span className="icon-name group-hover:scale-100">
                 {text}
