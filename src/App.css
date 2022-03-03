@@ -1,16 +1,18 @@
 /* ========= GLOBAL STYLING ========= */
 body {
     margin: 0;
+    background:midnightblue;
 }
 
 /* ========= NAVBAR STYLING ========= */
 #main-navbar {
     border: black 1px solid;
+    border-radius: 3px ;
+    background: url("./images/sky.jpeg");
     padding: 5px;
     display: flex;
     justify-content: center;
     align-content: center;
-
 }
 
 
@@ -24,21 +26,19 @@ body {
     position: absolute;
 }
 
-#biography {
+#biography, #site-purpose {
     height: fit-content;
-    width: 80%;
-    margin: 0 auto;
-
+    width: 70%;
+    padding: 10px 20px;
+    background: bisque;
+    border: black 2px ridge;
+    border-radius: 10px;
+    margin: 0 auto 20px;
 }
 
-#bio-title {
+#bio-title, #purpose-title {
+    margin: 0;
     text-align: center;
-}
-
-#site-purpose {
-    height: fit-content;
-    width: 80%;
-    margin: 0 auto;
 }
 
 

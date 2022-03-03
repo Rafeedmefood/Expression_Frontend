@@ -18,6 +18,7 @@ function Home() {
             </div>
 
             <div id="site-purpose">
+                <h2 id="purpose-title">And Your Purpose?</h2>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
