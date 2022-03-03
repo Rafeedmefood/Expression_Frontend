@@ -3,10 +3,10 @@ import React from "react";
 function Home() {
 
     return (
-        <div id="home-background">
-
-            <div id="biography">
-                <h1 id="bio-title"> Who Am I? </h1>
+        <div>
+            <img src={require('../images/pinksky.jpg')} alt="pink sky"/>
+            <div>
+                <h1> Who Am I? </h1>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -17,8 +17,8 @@ function Home() {
                 </p>
             </div>
 
-            <div id="site-purpose">
-                <h2 id="purpose-title">And Your Purpose?</h2>
+            <div>
+                <h2>And Your Purpose?</h2>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
