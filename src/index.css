@@ -22,4 +22,13 @@ body {
         transition-all duration-100 scale-0 origin-top;
     }
 
+    .home-cards {
+        @apply p-5 bg-purple-200 w-[18%] h-[35%] rounded-lg shadow-lg shadow-gray-700 m-[10%] animate-fade-in-up
+    }
+
+    .home-titles {
+        @apply text-center mb-1
+    }
+
+
 }
