@@ -3,7 +3,10 @@ module.exports = {
     theme: {
         extend: {
             backgroundImage: {
-                'pink-sky': "url('/src/images/pinksky.jpg')"
+                'pink-sky': "url('/src/images/pinksky.jpg')",
+                'cartoon-sky': "url('/src/images/pinksky.jpeg')",
+                'red-forest': "url('/src/images/red-forest.jpeg')",
+                'cliff': "url('/src/images/cliff.jpeg')"
             },
             keyframes: {
                 'fade-in-up': {
