@@ -6,7 +6,7 @@ function Home() {
     useEffect(() => {
         setTimeout(function () {
             setIsPurposeHidden(true)
-        }, 300)
+        }, 350)
     }, [])
 
 

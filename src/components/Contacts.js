@@ -8,10 +8,10 @@ function Contacts() {
     useEffect(() => {
         setTimeout(function () {
             setIsGeneralBioInfoHidden(true)
-        }, 500);
+        }, 350);
         setTimeout(function () {
             setIsContactInfoHidden(true)
-        }, 1000);
+        }, 800);
 
     }, [])
 
