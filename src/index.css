@@ -23,12 +23,16 @@ body {
     }
 
     .home-cards {
-        @apply p-5 bg-purple-200 w-[30%] h-[45%] rounded-lg shadow-lg shadow-gray-700 m-[10%] animate-fade-in-up
+        @apply p-5 bg-purple-200 w-[30%] h-[45%] rounded-lg shadow-lg shadow-gray-700 m-[10%] animate-fade-in-up;
     }
 
     .home-titles {
-        @apply text-center mb-1
+        @apply text-center mb-1;
     }
 
+    .expression-buttons {
+        @apply icons border-black border-[1px] shadow-lg shadow-gray-900 bg-fuchsia-500 h-[60px] w-[120px] text-center
+        text-black hover:text-white hover:h-[80px] animate-fade-in-up m-10;
+    }
 
 }

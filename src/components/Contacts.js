@@ -8,10 +8,10 @@ function Contacts() {
     useEffect(() => {
         setTimeout(function () {
             setIsGeneralBioInfoHidden(true)
-        }, 500);
+        }, 350);
         setTimeout(function () {
             setIsContactInfoHidden(true)
-        }, 1000);
+        }, 800);
 
     }, [])
 
@@ -24,7 +24,7 @@ function Contacts() {
             {isGeneralBioInfoHidden &&
                 <div className="flex justify-center items-center">
                     <div
-                        className="rounded-3xl flex justify-center items-center m-[11%]">
+                        className="flex justify-center items-center m-[11%]">
                         <img className="rounded-3xl max-h-[350px] shadow-lg shadow-gray-900 animate-fade-in-up"
                              src={require("../images/contact.jpg")} alt="Rafid Karim"/>
                         <div
