@@ -6,24 +6,26 @@ import Expression from "./components/Expression";
 import StudyNotes from "./components/StudyNotes";
 import Videos from "./components/Videos";
 import WrittenPieces from "./components/WrittenPieces";
+import {APIContextProvider} from "./components/context/APIcontext";
 
 function App() {
-  return (
-    <Router>
-        <Navigation />
-        <div>
-
-            <Routes>
-                <Route exact path={"/"} element={<Home />} />
-                <Route exact path={"/Contacts"} element={<Contacts />} />
-                <Route exact path={"/Expression"} element={<Expression />} />
-                <Route path={"/Expression/notes"} element={<StudyNotes/>}/>
-                <Route path={"/Expression/videos"} element={<Videos/>}/>
-                <Route path={"/Expression/written"} element={<WrittenPieces/>}/>
-            </Routes>
-        </div>
-    </Router>
-  );
+    return (
+        <Router>
+            <Navigation/>
+            <div>
+                <APIContextProvider>
+                    <Routes>
+                        <Route exact path={"/"} element={<Home/>}/>
+                        <Route exact path={"/Contacts"} element={<Contacts/>}/>
+                        <Route exact path={"/Expression"} element={<Expression/>}/>
+                        <Route path={"/Expression/notes"} element={<StudyNotes/>}/>
+                        <Route path={"/Expression/videos"} element={<Videos/>}/>
+                        <Route path={"/Expression/written"} element={<WrittenPieces/>}/>
+                    </Routes>
+                </APIContextProvider>
+            </div>
+        </Router>
+    );
 }
 
 export default App;
