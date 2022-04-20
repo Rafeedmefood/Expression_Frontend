@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
 import {Link} from "react-router-dom";
 
-function Expression(props) {
+function Expression() {
     const [showPage, setShowPage] = useState(false)
 
     useEffect(() => {

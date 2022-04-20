@@ -6,7 +6,9 @@ module.exports = {
                 'pink-sky': "url('/src/images/pinksky.jpg')",
                 'cartoon-sky': "url('/src/images/pinksky.jpeg')",
                 'red-forest': "url('/src/images/red-forest.jpeg')",
-                'cliff': "url('/src/images/cliff.jpeg')"
+                'cliff': "url('/src/images/cliff.jpeg')",
+                'mountain-sky' : "url('/src/images/sky.jpg')",
+                'skyline' : "url('/src/images/skyline.jpg')"
             },
             keyframes: {
                 'fade-in-up': {

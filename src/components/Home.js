@@ -13,7 +13,7 @@ function Home() {
     return (
         <div className="flex justify-center items-center bg-pink-sky w-full h-full min-h-screen min-w-full">
             {isPurposeHidden ?
-                <div className="home-cards ml-[7%]">
+                <div className="home-cards">
                     <h2 className="home-titles">Welcome to My Site!</h2>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
