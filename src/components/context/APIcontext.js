@@ -1,5 +1,4 @@
 import React, {createContext, useContext, useReducer} from "react";
-import axios from "axios";
 
 const ACTIONS = {
 }
@@ -25,11 +24,6 @@ export function useAPIContext() {
 
 export function useAPIDispatchContext() {
     return useContext(APIDispatchContext)
-}
-
-async function getWritten() {
-    let res = await axios.get('http://localhost:8080/api/written/all')
-    return res.data
 }
 
 export function APIContextProvider({children}) {
