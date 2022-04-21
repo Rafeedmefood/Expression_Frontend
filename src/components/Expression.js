@@ -15,8 +15,8 @@ function Expression() {
             <div className="flex justify-center items-center h-full w-full">
                 {
                     showPage &&
-                    <div>
-                        <h1 className="animate-fade-in-up m-[28%] text-center">Where Shall We Go Today?</h1>
+                    <div className="mt-[4.5%]">
+                        <h1 className="animate-fade-in-up text-center mb-[40%] font-Akshar text-white text-xl">Where Shall We Go Today?</h1>
                         <div className="flex justify-center items-center h-[80px]">
                             <Link to="/Expression/notes" replace>
                                 <div
