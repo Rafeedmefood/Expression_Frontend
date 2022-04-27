@@ -8,6 +8,8 @@ import Videos from "./components/Videos";
 import WrittenPieces from "./components/WrittenPieces";
 import {APIContextProvider} from "./components/context/APIcontext";
 import WrittenViewer from "./components/WrittenViewer";
+import NoteViewer from "./components/NoteViewer";
+import VideoViewer from "./components/VideoViewer";
 
 function App() {
     return (
@@ -20,8 +22,14 @@ function App() {
                         <Route exact path={"Contacts"} element={<Contacts/>}/>
                         <Route exact path={"Expression"}>
                             <Route index element={<Expression/>}/>
-                            <Route exact path={"notes"} element={<StudyNotes/>}/>
-                            <Route exact path={"videos"} element={<Videos/>}/>
+                            <Route exact path={"notes"}>
+                                <Route index element={<StudyNotes/>}/>
+                                <Route exact path={":id"} element={<NoteViewer/>}/>
+                            </Route>
+                            <Route exact path={"videos"}>
+                                <Route index element={<Videos/>}/>
+                                <Route exact path={":id"} element={<VideoViewer/>}/>
+                            </Route>
                             <Route exact path={"written"}>
                                 <Route index element={<WrittenPieces/>}/>
                                 <Route exact path={":id"} element={<WrittenViewer/>}/>

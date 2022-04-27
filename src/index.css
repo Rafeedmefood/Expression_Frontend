@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Cinzel:wght@500&family=Square+Peg&family=Updock&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -33,8 +33,8 @@ body {
     }
 
     .expression-buttons {
-        @apply icons border-black border-[1px] shadow-lg shadow-gray-900 bg-fuchsia-500 h-[60px] w-[120px] text-center
-        text-black hover:text-white hover:h-[80px] animate-fade-in-up m-10;
+        @apply icons border-black border-[1px] shadow-lg shadow-gray-900 bg-fuchsia-600 h-[60px] w-[120px] text-center
+        text-black hover:text-white hover:h-[80px] animate-fade-in-up m-10 font-Cinzel font-bold;
     }
 
 }

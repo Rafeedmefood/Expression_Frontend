@@ -25,24 +25,19 @@ function Contacts() {
                 <div className="flex justify-center items-center">
                     <div
                         className="flex justify-center items-center m-[11%]">
-                        <img className="rounded-3xl max-h-[350px] shadow-lg shadow-gray-900 animate-fade-in-up"
+                        <img className="rounded-3xl max-h-[300px] shadow-lg shadow-gray-900 animate-fade-in-up"
                              src={require("../images/contact.jpg")} alt="Rafid Karim"/>
                         <div
-                            className="p-5 bg-pink-400 rounded-3xl shadow-lg shadow-gray-900 animate-fade-in-up ml-2.5 h-[350px]">
-                            <h1 className=""> About Me </h1>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                                officia deserunt mollit anim id est laborum.
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                fugiat nulla pariatur. Excepteur sint occaecat
-
+                            className="p-5 bg-pink-500 rounded-3xl shadow-lg shadow-gray-900 animate-fade-in-up ml-2.5 m-h-[300px]">
+                            <h1 className="font-Akshar font-bold text-[40px]"> About Me </h1>
+                            <p className="font-SquarePeg font-semibold text-[25px]">
+                                My name is Rafid Karim, and I am a first generation Bengali - American aspiring to become a software engineer. I am
+                                currently enrolled in Brooklyn College working towards a Bachelors Degree of Science in Computer Science, and I am part of
+                                the Computer Science Club, the Tech Talent Pipeline, and the Cuny 2X Program.
+                                I am interested in technology, fashion, and fitness, and am always looking for opportunities to learn and better my craft.
+                                I believe that there is always room for improvement, and working towards a goal that I am passionate about is what I believe
+                                life is all about. I am always open to talk and answer any questions, so you can contact me through any of the links provided below.
+                                Feel free to connect with me on any of the links below! Thanks for dropping by :)
                             </p>
                         </div>
                     </div>
