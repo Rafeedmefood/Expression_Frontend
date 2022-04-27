@@ -21,7 +21,7 @@ function Expression() {
                             <Link to="/Expression/notes" replace>
                                 <div
                                     className='expression-buttons'>
-                                    Study Notes
+                                    Notes
                                 </div>
                             </Link>
                             <Link to="/Expression/videos">
@@ -33,7 +33,7 @@ function Expression() {
                             <Link to="/Expression/written">
                                 <div
                                     className='expression-buttons'>
-                                    Written Pieces
+                                    Written
                                 </div>
                             </Link>
                         </div>
