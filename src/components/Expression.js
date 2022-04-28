@@ -1,8 +1,13 @@
 import React, {useEffect, useState} from "react";
-import {Link} from "react-router-dom";
+import {useNavigate} from "react-router-dom";
 
 function Expression() {
     const [showPage, setShowPage] = useState(false)
+    const navigate = useNavigate()
+
+    const handleClick = (url) => {
+        navigate(url)
+    }
 
     useEffect(() => {
         setTimeout(function () {
@@ -16,26 +21,23 @@ function Expression() {
                 {
                     showPage &&
                     <div className="mt-[4.5%]">
-                        <h1 className="animate-fade-in-up text-center mb-[40%] font-Akshar text-white text-xl">Where Shall We Go Today?</h1>
+                        <h1 className="animate-fade-in-up text-center mb-[40%] font-Akshar text-white text-xl">Where
+                            Shall We Go Today?</h1>
                         <div className="flex justify-center items-center h-[80px]">
-                            <Link to="/Expression/notes" replace>
-                                <div
-                                    className='expression-buttons'>
-                                    Notes
-                                </div>
-                            </Link>
-                            <Link to="/Expression/videos">
-                                <div
-                                    className='expression-buttons'>
-                                    Videos
-                                </div>
-                            </Link>
-                            <Link to="/Expression/written">
-                                <div
-                                    className='expression-buttons'>
-                                    Written
-                                </div>
-                            </Link>
+                            <div
+                                className='expression-buttons' onClick={() => handleClick('/Expression/notes')}>
+                                Notes
+                            </div>
+
+                            <div
+                                className='expression-buttons' onClick={() => handleClick('/Expression/videos')}>
+                                Videos
+                            </div>
+
+                            <div
+                                className='expression-buttons' onClick={() => handleClick('/Expression/written')}>
+                                Written
+                            </div>
                         </div>
                     </div>
                 }
