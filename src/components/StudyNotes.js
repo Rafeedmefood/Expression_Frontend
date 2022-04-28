@@ -1,10 +1,9 @@
-import React, {useState} from "react";
+import React from "react";
 import { useNavigate } from 'react-router-dom';
 import useGetOperation from "./hooks/useGetOperation";
 
 function StudyNotes() {
-    const [url, setUrl] = useState("https://expression-backend.herokuapp.com/api/note/all")
-    const data = useGetOperation(url);
+    const data = useGetOperation("https://expression-backend.herokuapp.com/api/note/all");
     const navigate = useNavigate()
 
     const handleClick = (id) => {
