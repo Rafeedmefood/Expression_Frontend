@@ -35,7 +35,7 @@ function Contacts() {
                                 currently enrolled in Brooklyn College working towards a Bachelors Degree of Science in Computer Science, and I am part of
                                 the Computer Science Club, the Tech Talent Pipeline, and the Cuny 2X Program.
                                 I am interested in technology, fashion, and fitness, and am always looking for opportunities to learn and better my craft.
-                                I believe that there is always room for improvement, and working towards a goal that I am passionate about is what I believe
+                                There is always room for improvement, and working towards a goal that I am passionate about is what I believe
                                 life is all about. I am always open to talk and answer any questions, so you can contact me through any of the links provided below.
                                 Feel free to connect with me on any of the links below! Thanks for dropping by :)
                             </p>
