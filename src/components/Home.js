@@ -21,7 +21,8 @@ function Home() {
                         You can navigate through my site with the global navbar on the top right. Hovering over the buttons will allow you
                         to see what each button represents! When heading to the expression section, you will see three options: notes / videos /
                         written. The notes section will lead to all my notes, the video section being links to videos I create, and written
-                        being my attempts to put feelings to paper. Hope you enjoy! If there are any questions, concerns, or comments, feel
+                        being my attempts to put feelings to paper. IN ALL INSTANCES WAIT AT LEAST 15-20 SECONDS FOR THE DATABASE TO WAKE UP!
+                        Hope you enjoy! If there are any questions, concerns, or comments, feel
                         free to head over to my contact section and use your preferred method of communication.
                         <br />
                         <br />
